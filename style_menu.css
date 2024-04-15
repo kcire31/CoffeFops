@@ -1,0 +1,120 @@
+
+header{
+    background-color: whitesmoke;
+}
+
+.box{
+    width: 940px;
+    position: relative;
+    margin: 0 0;
+}
+
+#logo{
+    width: 100px;
+    padding: 15px;
+}
+
+nav{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;    
+}
+
+nav a:hover{
+    color: rgb(245, 32, 68);
+}
+
+.menuimg{
+    width:  200px;
+}
+
+.menu{
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    margin-left: 70px; /*EL PANEL DE NAVEGACION TIENE QUE TENER EL TAMAÑO ADECUADO (agregarle las tres lineas para encontrar las opciones)*/
+    margin-bottom: 50px;
+    vertical-align:top; /* RREGLAR EL FOOTER para que este bien en cel y pc*/
+    background-color: rgb(255, 255, 255);
+    padding: 30px 20px;
+    box-sizing:border-box;
+    border-color: black;
+    border-width: 2px;
+     /* border: 2px solid black*/
+    border-style: dashed;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    /* border: 2px solid black*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 40px;
+    /* border-radius: 10px 25px 40px 50px    en sentido del reloj*/ 
+} 
+
+.menu li:hover{
+    border-color: cornflowerblue;
+}
+
+.menu li:active{
+    border-color: blueviolet;
+}
+
+.menu h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu li:hover h2{
+    transform: scale(1.1);
+}
+
+.product{
+    font-size: 18px;
+}
+
+.logo2{
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+footer{
+    position: relative;
+    /*width: 100%;*/
+    text-align: center;
+    background: url(logo/bg.jpg);
+    /*background-color: black;*/
+    padding: 40px;
+}
+
+.in{
+    width: 20px;
+}
+
+.Copyright{
+    color: white;
+    font-size: 13px;
+}
+
